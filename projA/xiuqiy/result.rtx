@@ -1,0 +1,173 @@
+Feedback:
+	Your program ("Nimsys.java") has been submitted successfully.
+	Compiling your program with "javac"...
+	Your program has been result.rtxd successfully :-)
+Now, it's your responsibility to test your program for correctness!
+Here is a simple test case, and the results:
+============================================
+Test for input file: in1
+Expected results:							Your results:
+Welcome to Nim								Welcome to Nim
+
+Please enter Player 1's name:						Please enter Player 1's name:
+
+Please enter Player 2's name:						Please enter Player 2's name:
+
+Please enter upper bound of stone removal:				Please enter upper bound of stone removal:
+
+Please enter initial number of stones:					Please enter initial number of stones:
+
+12 stones left: * * * * * * * * * * * *					12 stones left: * * * * * * * * * * * *
+Luke's turn - remove how many?						Luke's turn - remove how many?
+
+9 stones left: * * * * * * * * *					9 stones left: * * * * * * * * *
+Han's turn - remove how many?						Han's turn - remove how many?
+
+8 stones left: * * * * * * * *						8 stones left: * * * * * * * *
+Luke's turn - remove how many?						Luke's turn - remove how many?
+
+7 stones left: * * * * * * *						7 stones left: * * * * * * *
+Han's turn - remove how many?						Han's turn - remove how many?
+
+5 stones left: * * * * *						5 stones left: * * * * *
+Luke's turn - remove how many?						Luke's turn - remove how many?
+
+2 stones left: * *							2 stones left: * *
+Han's turn - remove how many?						Han's turn - remove how many?
+
+1 stones left: *							1 stones left: *
+Luke's turn - remove how many?						Luke's turn - remove how many?
+
+Game Over								Game Over
+Han wins!								Han wins!
+
+Do you want to play again (Y/N):					Do you want to play again (Y/N):
+Please enter upper bound of stone removal:				Please enter upper bound of stone removal:
+
+Please enter initial number of stones:					Please enter initial number of stones:
+
+15 stones left: * * * * * * * * * * * * * * *				15 stones left: * * * * * * * * * * * * * * *
+Luke's turn - remove how many?						Luke's turn - remove how many?
+
+14 stones left: * * * * * * * * * * * * * *				14 stones left: * * * * * * * * * * * * * *
+Han's turn - remove how many?						Han's turn - remove how many?
+
+12 stones left: * * * * * * * * * * * *					12 stones left: * * * * * * * * * * * *
+Luke's turn - remove how many?						Luke's turn - remove how many?
+
+9 stones left: * * * * * * * * *					9 stones left: * * * * * * * * *
+Han's turn - remove how many?						Han's turn - remove how many?
+
+5 stones left: * * * * *						5 stones left: * * * * *
+Luke's turn - remove how many?						Luke's turn - remove how many?
+
+Game Over								Game Over
+Han wins!								Han wins!
+
+Do you want to play again (Y/N):					Do you want to play again (Y/N):
+
+Your results seem to be CORRECT :-).
+============================================
+Test for input file: in2
+Expected results:							Your results:
+Welcome to Nim								Welcome to Nim
+
+Please enter Player 1's name:						Please enter Player 1's name:
+
+Please enter Player 2's name:						Please enter Player 2's name:
+
+Please enter upper bound of stone removal:				Please enter upper bound of stone removal:
+
+Please enter initial number of stones:					Please enter initial number of stones:
+
+5 stones left: * * * * *						5 stones left: * * * * *
+Tom's turn - remove how many?						Tom's turn - remove how many?
+
+Game Over								Game Over
+Jerry wins!								Jerry wins!
+
+Do you want to play again (Y/N):					Do you want to play again (Y/N):
+Please enter upper bound of stone removal:				Please enter upper bound of stone removal:
+
+Please enter initial number of stones:					Please enter initial number of stones:
+
+3 stones left: * * *							3 stones left: * * *
+Tom's turn - remove how many?						Tom's turn - remove how many?
+
+2 stones left: * *							2 stones left: * *
+Jerry's turn - remove how many?						Jerry's turn - remove how many?
+
+Game Over								Game Over
+Tom wins!								Tom wins!
+
+Do you want to play again (Y/N):					Do you want to play again (Y/N):
+Please enter upper bound of stone removal:				Please enter upper bound of stone removal:
+
+Please enter initial number of stones:					Please enter initial number of stones:
+
+2 stones left: * *							2 stones left: * *
+Tom's turn - remove how many?						Tom's turn - remove how many?
+
+Game Over								Game Over
+Jerry wins!								Jerry wins!
+
+Do you want to play again (Y/N):					Do you want to play again (Y/N):
+
+Your results seem to be CORRECT :-).
+============================================
+Test for input file: in3
+Expected results:							Your results:
+Welcome to Nim								Welcome to Nim
+
+Please enter Player 1's name:						Please enter Player 1's name:
+
+Please enter Player 2's name:						Please enter Player 2's name:
+
+Please enter upper bound of stone removal:				Please enter upper bound of stone removal:
+
+Please enter initial number of stones:					Please enter initial number of stones:
+
+10 stones left: * * * * * * * * * *					10 stones left: * * * * * * * * * *
+Jack's turn - remove how many?						Jack's turn - remove how many?
+
+5 stones left: * * * * *						5 stones left: * * * * *
+Rose's turn - remove how many?						Rose's turn - remove how many?
+
+Game Over								Game Over
+Jack wins!								Jack wins!
+
+Do you want to play again (Y/N):					Do you want to play again (Y/N):
+Please enter upper bound of stone removal:				Please enter upper bound of stone removal:
+
+Please enter initial number of stones:					Please enter initial number of stones:
+
+20 stones left: * * * * * * * * * * * * * * * * * * * *			20 stones left: * * * * * * * * * * * * * * * * * * * *
+Jack's turn - remove how many?						Jack's turn - remove how many?
+
+19 stones left: * * * * * * * * * * * * * * * * * * *			19 stones left: * * * * * * * * * * * * * * * * * * *
+Rose's turn - remove how many?						Rose's turn - remove how many?
+
+17 stones left: * * * * * * * * * * * * * * * * *			17 stones left: * * * * * * * * * * * * * * * * *
+Jack's turn - remove how many?						Jack's turn - remove how many?
+
+14 stones left: * * * * * * * * * * * * * *				14 stones left: * * * * * * * * * * * * * *
+Rose's turn - remove how many?						Rose's turn - remove how many?
+
+10 stones left: * * * * * * * * * *					10 stones left: * * * * * * * * * *
+Jack's turn - remove how many?						Jack's turn - remove how many?
+
+6 stones left: * * * * * *						6 stones left: * * * * * *
+Rose's turn - remove how many?						Rose's turn - remove how many?
+
+3 stones left: * * *							3 stones left: * * *
+Jack's turn - remove how many?						Jack's turn - remove how many?
+
+1 stones left: *							1 stones left: *
+Rose's turn - remove how many?						Rose's turn - remove how many?
+
+Game Over								Game Over
+Jack wins!								Jack wins!
+
+Do you want to play again (Y/N):					Do you want to play again (Y/N):
+
+Your results seem to be CORRECT :-).

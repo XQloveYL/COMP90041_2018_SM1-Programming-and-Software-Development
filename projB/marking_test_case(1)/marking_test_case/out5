@@ -1,0 +1,38 @@
+Welcome to Nim
+
+$
+$
+$One of the players does not exist.
+
+$
+Initial stone count: 10
+Maximum stone removal: 3
+Player 1: George Washington
+Player 2: John Adams
+
+10 stones left: * * * * * * * * * *
+George's turn - remove how many?
+
+7 stones left: * * * * * * *
+John's turn - remove how many?
+
+Invalid move. You must remove between 1 and 3 stones.
+
+7 stones left: * * * * * * *
+John's turn - remove how many?
+
+4 stones left: * * * *
+George's turn - remove how many?
+
+1 stones left: *
+John's turn - remove how many?
+
+Invalid move. You must remove between 1 and 1 stones.
+
+1 stones left: *
+John's turn - remove how many?
+
+Game Over
+George Washington wins!
+
+$

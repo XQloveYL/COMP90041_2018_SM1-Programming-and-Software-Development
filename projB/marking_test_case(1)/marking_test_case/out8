@@ -1,0 +1,203 @@
+Welcome to Nim
+
+$
+$The player already exists.
+
+$The player does not exist.
+
+$
+$Are you sure you want to remove all players? (y/n)
+
+$The player does not exist.
+
+$
+$
+$
+$
+$
+$The player does not exist.
+
+$
+$Are you sure you want to reset all player statistics? (y/n)
+
+$The player does not exist.
+
+$
+Initial stone count: 5
+Maximum stone removal: 2
+Player 1: Luke Skywalker
+Player 2: Darth Vader
+
+5 stones left: * * * * *
+Luke's turn - remove how many?
+
+3 stones left: * * *
+Darth's turn - remove how many?
+
+2 stones left: * *
+Luke's turn - remove how many?
+
+1 stones left: *
+Darth's turn - remove how many?
+
+Game Over
+Luke Skywalker wins!
+
+$
+Initial stone count: 5
+Maximum stone removal: 2
+Player 1: Luke Skywalker
+Player 2: Darth Vader
+
+5 stones left: * * * * *
+Luke's turn - remove how many?
+
+3 stones left: * * *
+Darth's turn - remove how many?
+
+2 stones left: * *
+Luke's turn - remove how many?
+
+1 stones left: *
+Darth's turn - remove how many?
+
+Game Over
+Luke Skywalker wins!
+
+$
+Initial stone count: 5
+Maximum stone removal: 2
+Player 1: Luke Skywalker
+Player 2: Darth Vader
+
+5 stones left: * * * * *
+Luke's turn - remove how many?
+
+3 stones left: * * *
+Darth's turn - remove how many?
+
+2 stones left: * *
+Luke's turn - remove how many?
+
+1 stones left: *
+Darth's turn - remove how many?
+
+Game Over
+Luke Skywalker wins!
+
+$
+Initial stone count: 8
+Maximum stone removal: 5
+Player 1: Han Solo
+Player 2: Darth Vader
+
+8 stones left: * * * * * * * *
+Han's turn - remove how many?
+
+3 stones left: * * *
+Darth's turn - remove how many?
+
+Game Over
+Han Solo wins!
+
+$
+Initial stone count: 8
+Maximum stone removal: 5
+Player 1: Han Solo
+Player 2: Darth Vader
+
+8 stones left: * * * * * * * *
+Han's turn - remove how many?
+
+3 stones left: * * *
+Darth's turn - remove how many?
+
+Game Over
+Han Solo wins!
+
+$
+Initial stone count: 8
+Maximum stone removal: 5
+Player 1: Han Solo
+Player 2: Darth Vader
+
+8 stones left: * * * * * * * *
+Han's turn - remove how many?
+
+3 stones left: * * *
+Darth's turn - remove how many?
+
+Game Over
+Han Solo wins!
+
+$
+Initial stone count: 10
+Maximum stone removal: 6
+Player 1: Darth Vader
+Player 2: Han Solo
+
+10 stones left: * * * * * * * * * *
+Darth's turn - remove how many?
+
+4 stones left: * * * *
+Han's turn - remove how many?
+
+Game Over
+Darth Vader wins!
+
+$lskywalker,Luke,Skywalker,3 games,3 wins
+
+$dvader,Darth,Vader,7 games,1 wins
+hsolo,Han,Solo,4 games,3 wins
+lskywalker,Luke,Skywalker,3 games,3 wins
+
+$100% | 03 games | Luke Skywalker
+75%  | 04 games | Han Solo
+14%  | 07 games | Darth Vader
+
+$100% | 03 games | Luke Skywalker
+75%  | 04 games | Han Solo
+14%  | 07 games | Darth Vader
+
+$14%  | 07 games | Darth Vader
+75%  | 04 games | Han Solo
+100% | 03 games | Luke Skywalker
+
+$One of the players does not exist.
+
+$
+Initial stone count: 10
+Maximum stone removal: 3
+Player 1: Luke Skywalker
+Player 2: Han Solo
+
+10 stones left: * * * * * * * * * *
+Luke's turn - remove how many?
+
+7 stones left: * * * * * * *
+Han's turn - remove how many?
+
+Invalid move. You must remove between 1 and 3 stones.
+
+7 stones left: * * * * * * *
+Han's turn - remove how many?
+
+4 stones left: * * * *
+Luke's turn - remove how many?
+
+1 stones left: *
+Han's turn - remove how many?
+
+Invalid move. You must remove between 1 and 1 stones.
+
+1 stones left: *
+Han's turn - remove how many?
+
+Game Over
+Luke Skywalker wins!
+
+$100% | 04 games | Luke Skywalker
+60%  | 05 games | Han Solo
+14%  | 07 games | Darth Vader
+
+$

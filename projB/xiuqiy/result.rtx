@@ -1,0 +1,529 @@
+Feedback:
+	Your program ("Nimsys.java") has been submitted successfully.
+	Compiling your program with "javac"...
+	Your program has been result.rtxd successfully :-)
+Now, it's your responsibility to test your program for correctness!
+Here is a simple test case, and the results:
+============================================
+Test for input file: in1
+Expected results:							Your results:
+Welcome to Nim								Welcome to Nim
+
+$									$
+$									$
+$									$
+$									$
+$									$
+$george,George,Washington,0 games,0 wins				$george,George,Washington,0 games,0 wins
+jadams,John,Adams,0 games,0 wins					jadams,John,Adams,0 games,0 wins
+jmadison,James,Madison,0 games,0 wins					jmadison,James,Madison,0 games,0 wins
+jmonroe,James,Monroe,0 games,0 wins					jmonroe,James,Monroe,0 games,0 wins
+tom,Thomas,Jefferson,0 games,0 wins					tom,Thomas,Jefferson,0 games,0 wins
+
+$jmadison,James,Madison,0 games,0 wins					$jmadison,James,Madison,0 games,0 wins
+
+$									$
+
+Your results seem to be CORRECT :-).
+============================================
+Test for input file: in2
+Expected results:							Your results:
+Welcome to Nim								Welcome to Nim
+
+$									$
+$The player already exists.						$The player already exists.
+
+$									$
+$gbush,George,Bush,0 games,0 wins					$gbush,George,Bush,0 games,0 wins
+george,George,Washington,0 games,0 wins					george,George,Washington,0 games,0 wins
+
+$									$
+
+Your results seem to be CORRECT :-).
+============================================
+Test for input file: in3
+Expected results:							Your results:
+Welcome to Nim								Welcome to Nim
+
+$									$
+$									$
+$									$
+$george,George,Washington,0 games,0 wins				$george,George,Washington,0 games,0 wins
+jadams,John,Adams,0 games,0 wins					jadams,John,Adams,0 games,0 wins
+tom,Thomas,Jefferson,0 games,0 wins					tom,Thomas,Jefferson,0 games,0 wins
+
+$The player does not exist.						$The player does not exist.
+
+$									$
+$george,George,Washington,0 games,0 wins				$george,George,Washington,0 games,0 wins
+jadams,John,Adams,0 games,0 wins					jadams,John,Adams,0 games,0 wins
+
+$Are you sure you want to remove all players? (y/n)			$Are you sure you want to remove all players? (y/n)
+
+$									$
+$									$
+
+Your results seem to be CORRECT :-).
+============================================
+Test for input file: in4
+Expected results:							Your results:
+Welcome to Nim								Welcome to Nim
+
+$									$
+$jcarter,Jimmy,Carter,0 games,0 wins					$jcarter,Jimmy,Carter,0 games,0 wins
+
+$The player does not exist.						$The player does not exist.
+
+$									$
+$jcarter,James,Carter,0 games,0 wins					$jcarter,James,Carter,0 games,0 wins
+
+$									$
+$									$
+$									$
+$george,George,Washington,0 games,0 wins				$george,George,Washington,0 games,0 wins
+jadams,John,Adams,0 games,0 wins					jadams,John,Adams,0 games,0 wins
+
+$									$
+Initial stone count: 10							Initial stone count: 10
+Maximum stone removal: 3						Maximum stone removal: 3
+Player 1: George Washington						Player 1: George Washington
+Player 2: John Adams							Player 2: John Adams
+
+10 stones left: * * * * * * * * * *					10 stones left: * * * * * * * * * *
+George's turn - remove how many?					George's turn - remove how many?
+
+8 stones left: * * * * * * * *						8 stones left: * * * * * * * *
+John's turn - remove how many?						John's turn - remove how many?
+
+6 stones left: * * * * * *						6 stones left: * * * * * *
+George's turn - remove how many?					George's turn - remove how many?
+
+4 stones left: * * * *							4 stones left: * * * *
+John's turn - remove how many?						John's turn - remove how many?
+
+3 stones left: * * *							3 stones left: * * *
+George's turn - remove how many?					George's turn - remove how many?
+
+2 stones left: * *							2 stones left: * *
+John's turn - remove how many?						John's turn - remove how many?
+
+1 stones left: *							1 stones left: *
+George's turn - remove how many?					George's turn - remove how many?
+
+Game Over								Game Over
+John Adams wins!							John Adams wins!
+
+$100% | 01 games | John Adams						$100% | 01 games | John Adams
+0%   | 01 games | George Washington					0%   | 01 games | George Washington
+
+$									$
+
+Your results seem to be CORRECT :-).
+============================================
+Test for input file: in5
+Expected results:							Your results:
+Welcome to Nim								Welcome to Nim
+
+$									$
+$									$
+$One of the players does not exist.					$One of the players does not exist.
+
+$									$
+Initial stone count: 10							Initial stone count: 10
+Maximum stone removal: 3						Maximum stone removal: 3
+Player 1: George Washington						Player 1: George Washington
+Player 2: John Adams							Player 2: John Adams
+
+10 stones left: * * * * * * * * * *					10 stones left: * * * * * * * * * *
+George's turn - remove how many?					George's turn - remove how many?
+
+7 stones left: * * * * * * *						7 stones left: * * * * * * *
+John's turn - remove how many?						John's turn - remove how many?
+
+Invalid move. You must remove between 1 and 3 stones.			Invalid move. You must remove between 1 and 3 stones.
+
+7 stones left: * * * * * * *					     <
+John's turn - remove how many?						John's turn - remove how many?
+
+4 stones left: * * * *							4 stones left: * * * *
+George's turn - remove how many?					George's turn - remove how many?
+
+1 stones left: *							1 stones left: *
+John's turn - remove how many?						John's turn - remove how many?
+
+Invalid move. You must remove between 1 and 1 stones.			Invalid move. You must remove between 1 and 1 stones.
+
+1 stones left: *						     <
+John's turn - remove how many?						John's turn - remove how many?
+
+Game Over								Game Over
+George Washington wins!							George Washington wins!
+
+$									$
+
+Oops, your results seem to be INCORRECT :-(
+============================================
+Test for input file: in6
+Expected results:							Your results:
+Welcome to Nim								Welcome to Nim
+
+$									$
+$									$
+$									$
+$									$
+$									$
+Initial stone count: 1							Initial stone count: 1
+Maximum stone removal: 1						Maximum stone removal: 1
+Player 1: George Washington						Player 1: George Washington
+Player 2: John Adams							Player 2: John Adams
+
+1 stones left: *							1 stones left: *
+George's turn - remove how many?					George's turn - remove how many?
+
+Game Over								Game Over
+John Adams wins!							John Adams wins!
+
+$									$
+Initial stone count: 1							Initial stone count: 1
+Maximum stone removal: 1						Maximum stone removal: 1
+Player 1: George Washington						Player 1: George Washington
+Player 2: John Adams							Player 2: John Adams
+
+1 stones left: *							1 stones left: *
+George's turn - remove how many?					George's turn - remove how many?
+
+Game Over								Game Over
+John Adams wins!							John Adams wins!
+
+$									$
+Initial stone count: 1							Initial stone count: 1
+Maximum stone removal: 1						Maximum stone removal: 1
+Player 1: John Adams							Player 1: John Adams
+Player 2: Thomas Jefferson						Player 2: Thomas Jefferson
+
+1 stones left: *							1 stones left: *
+John's turn - remove how many?						John's turn - remove how many?
+
+Game Over								Game Over
+Thomas Jefferson wins!							Thomas Jefferson wins!
+
+$									$
+Initial stone count: 1							Initial stone count: 1
+Maximum stone removal: 1						Maximum stone removal: 1
+Player 1: Thomas Jefferson						Player 1: Thomas Jefferson
+Player 2: James Madison							Player 2: James Madison
+
+1 stones left: *							1 stones left: *
+Thomas's turn - remove how many?					Thomas's turn - remove how many?
+
+Game Over								Game Over
+James Madison wins!							James Madison wins!
+
+$100% | 01 games | James Madison					$100% | 01 games | James Madison
+67%  | 03 games | John Adams					     <
+50%  | 02 games | Thomas Jefferson				     <
+0%   | 02 games | George Washington					0%   | 02 games | George Washington
+								     >	0%   | 03 games | John Adams
+								     >	0%   | 02 games | Thomas Jefferson
+
+$Are you sure you want to reset all player statistics? (y/n)		$Are you sure you want to reset all player statistics? (y/n)
+
+$george,George,Washington,0 games,0 wins				$george,George,Washington,0 games,0 wins
+jadams,John,Adams,0 games,0 wins					jadams,John,Adams,0 games,0 wins
+jmadison,James,Madison,0 games,0 wins					jmadison,James,Madison,0 games,0 wins
+tom,Thomas,Jefferson,0 games,0 wins					tom,Thomas,Jefferson,0 games,0 wins
+
+$									$
+
+Oops, your results seem to be INCORRECT :-(
+============================================
+Test for input file: in7
+Expected results:							Your results:
+Welcome to Nim								Welcome to Nim
+
+$									$
+$									$
+$									$
+$									$
+$									$
+Initial stone count: 1							Initial stone count: 1
+Maximum stone removal: 1						Maximum stone removal: 1
+Player 1: George Washington						Player 1: George Washington
+Player 2: John Adams							Player 2: John Adams
+
+1 stones left: *							1 stones left: *
+George's turn - remove how many?					George's turn - remove how many?
+
+Game Over								Game Over
+John Adams wins!							John Adams wins!
+
+$									$
+Initial stone count: 1							Initial stone count: 1
+Maximum stone removal: 1						Maximum stone removal: 1
+Player 1: George Washington						Player 1: George Washington
+Player 2: John Adams							Player 2: John Adams
+
+1 stones left: *							1 stones left: *
+George's turn - remove how many?					George's turn - remove how many?
+
+Game Over								Game Over
+John Adams wins!							John Adams wins!
+
+$									$
+Initial stone count: 1							Initial stone count: 1
+Maximum stone removal: 1						Maximum stone removal: 1
+Player 1: John Adams							Player 1: John Adams
+Player 2: Thomas Jefferson						Player 2: Thomas Jefferson
+
+1 stones left: *							1 stones left: *
+John's turn - remove how many?						John's turn - remove how many?
+
+Game Over								Game Over
+Thomas Jefferson wins!							Thomas Jefferson wins!
+
+$									$
+Initial stone count: 1							Initial stone count: 1
+Maximum stone removal: 1						Maximum stone removal: 1
+Player 1: Thomas Jefferson						Player 1: Thomas Jefferson
+Player 2: James Madison							Player 2: James Madison
+
+1 stones left: *							1 stones left: *
+Thomas's turn - remove how many?					Thomas's turn - remove how many?
+
+Game Over								Game Over
+James Madison wins!							James Madison wins!
+
+$100% | 01 games | James Madison					$100% | 01 games | James Madison
+67%  | 03 games | John Adams					     <
+50%  | 02 games | Thomas Jefferson				     <
+0%   | 02 games | George Washington					0%   | 02 games | George Washington
+								     >	0%   | 03 games | John Adams
+								     >	0%   | 02 games | Thomas Jefferson
+
+$0%   | 02 games | George Washington					$0%   | 02 games | George Washington
+50%  | 02 games | Thomas Jefferson				     |	0%   | 03 games | John Adams
+67%  | 03 games | John Adams					     |	0%   | 02 games | Thomas Jefferson
+100% | 01 games | James Madison						100% | 01 games | James Madison
+
+$Are you sure you want to reset all player statistics? (y/n)		$Are you sure you want to reset all player statistics? (y/n)
+
+$jadams,John,Adams,0 games,0 wins					$jadams,John,Adams,0 games,0 wins
+
+$The player does not exist.						$The player does not exist.
+
+$george,George,Washington,0 games,0 wins				$george,George,Washington,0 games,0 wins
+jadams,John,Adams,0 games,0 wins					jadams,John,Adams,0 games,0 wins
+jmadison,James,Madison,0 games,0 wins					jmadison,James,Madison,0 games,0 wins
+tom,Thomas,Jefferson,0 games,0 wins					tom,Thomas,Jefferson,0 games,0 wins
+
+$									$
+
+Oops, your results seem to be INCORRECT :-(
+============================================
+Test for input file: in8
+Expected results:							Your results:
+Welcome to Nim								Welcome to Nim
+
+$									$
+$The player already exists.						$The player already exists.
+
+$The player does not exist.						$The player does not exist.
+
+$									$
+$Are you sure you want to remove all players? (y/n)			$Are you sure you want to remove all players? (y/n)
+
+$The player does not exist.						$The player does not exist.
+
+$									$
+$									$
+$									$
+$									$
+$									$
+$The player does not exist.						$The player does not exist.
+
+$									$
+$Are you sure you want to reset all player statistics? (y/n)		$Are you sure you want to reset all player statistics? (y/n)
+
+$The player does not exist.						$The player does not exist.
+
+$									$
+Initial stone count: 5							Initial stone count: 5
+Maximum stone removal: 2						Maximum stone removal: 2
+Player 1: Luke Skywalker						Player 1: Luke Skywalker
+Player 2: Darth Vader							Player 2: Darth Vader
+
+5 stones left: * * * * *						5 stones left: * * * * *
+Luke's turn - remove how many?						Luke's turn - remove how many?
+
+3 stones left: * * *							3 stones left: * * *
+Darth's turn - remove how many?						Darth's turn - remove how many?
+
+2 stones left: * *							2 stones left: * *
+Luke's turn - remove how many?						Luke's turn - remove how many?
+
+1 stones left: *							1 stones left: *
+Darth's turn - remove how many?						Darth's turn - remove how many?
+
+Game Over								Game Over
+Luke Skywalker wins!							Luke Skywalker wins!
+
+$									$
+Initial stone count: 5							Initial stone count: 5
+Maximum stone removal: 2						Maximum stone removal: 2
+Player 1: Luke Skywalker						Player 1: Luke Skywalker
+Player 2: Darth Vader							Player 2: Darth Vader
+
+5 stones left: * * * * *						5 stones left: * * * * *
+Luke's turn - remove how many?						Luke's turn - remove how many?
+
+3 stones left: * * *							3 stones left: * * *
+Darth's turn - remove how many?						Darth's turn - remove how many?
+
+2 stones left: * *							2 stones left: * *
+Luke's turn - remove how many?						Luke's turn - remove how many?
+
+1 stones left: *							1 stones left: *
+Darth's turn - remove how many?						Darth's turn - remove how many?
+
+Game Over								Game Over
+Luke Skywalker wins!							Luke Skywalker wins!
+
+$									$
+Initial stone count: 5							Initial stone count: 5
+Maximum stone removal: 2						Maximum stone removal: 2
+Player 1: Luke Skywalker						Player 1: Luke Skywalker
+Player 2: Darth Vader							Player 2: Darth Vader
+
+5 stones left: * * * * *						5 stones left: * * * * *
+Luke's turn - remove how many?						Luke's turn - remove how many?
+
+3 stones left: * * *							3 stones left: * * *
+Darth's turn - remove how many?						Darth's turn - remove how many?
+
+2 stones left: * *							2 stones left: * *
+Luke's turn - remove how many?						Luke's turn - remove how many?
+
+1 stones left: *							1 stones left: *
+Darth's turn - remove how many?						Darth's turn - remove how many?
+
+Game Over								Game Over
+Luke Skywalker wins!							Luke Skywalker wins!
+
+$									$
+Initial stone count: 8							Initial stone count: 8
+Maximum stone removal: 5						Maximum stone removal: 5
+Player 1: Han Solo							Player 1: Han Solo
+Player 2: Darth Vader							Player 2: Darth Vader
+
+8 stones left: * * * * * * * *						8 stones left: * * * * * * * *
+Han's turn - remove how many?						Han's turn - remove how many?
+
+3 stones left: * * *							3 stones left: * * *
+Darth's turn - remove how many?						Darth's turn - remove how many?
+
+Game Over								Game Over
+Han Solo wins!								Han Solo wins!
+
+$									$
+Initial stone count: 8							Initial stone count: 8
+Maximum stone removal: 5						Maximum stone removal: 5
+Player 1: Han Solo							Player 1: Han Solo
+Player 2: Darth Vader							Player 2: Darth Vader
+
+8 stones left: * * * * * * * *						8 stones left: * * * * * * * *
+Han's turn - remove how many?						Han's turn - remove how many?
+
+3 stones left: * * *							3 stones left: * * *
+Darth's turn - remove how many?						Darth's turn - remove how many?
+
+Game Over								Game Over
+Han Solo wins!								Han Solo wins!
+
+$									$
+Initial stone count: 8							Initial stone count: 8
+Maximum stone removal: 5						Maximum stone removal: 5
+Player 1: Han Solo							Player 1: Han Solo
+Player 2: Darth Vader							Player 2: Darth Vader
+
+8 stones left: * * * * * * * *						8 stones left: * * * * * * * *
+Han's turn - remove how many?						Han's turn - remove how many?
+
+3 stones left: * * *							3 stones left: * * *
+Darth's turn - remove how many?						Darth's turn - remove how many?
+
+Game Over								Game Over
+Han Solo wins!								Han Solo wins!
+
+$									$
+Initial stone count: 10							Initial stone count: 10
+Maximum stone removal: 6						Maximum stone removal: 6
+Player 1: Darth Vader							Player 1: Darth Vader
+Player 2: Han Solo							Player 2: Han Solo
+
+10 stones left: * * * * * * * * * *					10 stones left: * * * * * * * * * *
+Darth's turn - remove how many?						Darth's turn - remove how many?
+
+4 stones left: * * * *							4 stones left: * * * *
+Han's turn - remove how many?						Han's turn - remove how many?
+
+Game Over								Game Over
+Darth Vader wins!							Darth Vader wins!
+
+$lskywalker,Luke,Skywalker,3 games,3 wins				$lskywalker,Luke,Skywalker,3 games,3 wins
+
+$dvader,Darth,Vader,7 games,1 wins					$dvader,Darth,Vader,7 games,1 wins
+hsolo,Han,Solo,4 games,3 wins						hsolo,Han,Solo,4 games,3 wins
+lskywalker,Luke,Skywalker,3 games,3 wins				lskywalker,Luke,Skywalker,3 games,3 wins
+
+$100% | 03 games | Luke Skywalker					$100% | 03 games | Luke Skywalker
+75%  | 04 games | Han Solo					     |	0%   | 07 games | Darth Vader
+14%  | 07 games | Darth Vader					     |	0%   | 04 games | Han Solo
+
+$100% | 03 games | Luke Skywalker					$100% | 03 games | Luke Skywalker
+75%  | 04 games | Han Solo					     |	0%   | 07 games | Darth Vader
+14%  | 07 games | Darth Vader					     |	0%   | 04 games | Han Solo
+
+$14%  | 07 games | Darth Vader					     |	$0%   | 07 games | Darth Vader
+75%  | 04 games | Han Solo					     |	0%   | 04 games | Han Solo
+100% | 03 games | Luke Skywalker					100% | 03 games | Luke Skywalker
+
+$One of the players does not exist.					$One of the players does not exist.
+
+$									$
+Initial stone count: 10							Initial stone count: 10
+Maximum stone removal: 3						Maximum stone removal: 3
+Player 1: Luke Skywalker						Player 1: Luke Skywalker
+Player 2: Han Solo							Player 2: Han Solo
+
+10 stones left: * * * * * * * * * *					10 stones left: * * * * * * * * * *
+Luke's turn - remove how many?						Luke's turn - remove how many?
+
+7 stones left: * * * * * * *						7 stones left: * * * * * * *
+Han's turn - remove how many?						Han's turn - remove how many?
+
+Invalid move. You must remove between 1 and 3 stones.			Invalid move. You must remove between 1 and 3 stones.
+
+7 stones left: * * * * * * *					     <
+Han's turn - remove how many?						Han's turn - remove how many?
+
+4 stones left: * * * *							4 stones left: * * * *
+Luke's turn - remove how many?						Luke's turn - remove how many?
+
+1 stones left: *							1 stones left: *
+Han's turn - remove how many?						Han's turn - remove how many?
+
+Invalid move. You must remove between 1 and 1 stones.			Invalid move. You must remove between 1 and 1 stones.
+
+1 stones left: *						     <
+Han's turn - remove how many?						Han's turn - remove how many?
+
+Game Over								Game Over
+Luke Skywalker wins!							Luke Skywalker wins!
+
+$100% | 04 games | Luke Skywalker					$100% | 04 games | Luke Skywalker
+60%  | 05 games | Han Solo					     |	0%   | 07 games | Darth Vader
+14%  | 07 games | Darth Vader					     |	0%   | 05 games | Han Solo
+
+$									$
+
+Oops, your results seem to be INCORRECT :-(
